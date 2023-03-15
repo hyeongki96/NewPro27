@@ -17,5 +17,5 @@ public interface MemberController {
 	ModelAndView login(MemberVO member, RedirectAttributes rAttr, HttpServletRequest request,
 			HttpServletResponse response) throws Exception;
 	ModelAndView logout(HttpServletRequest request, HttpServletResponse response) throws Exception;
-
+	//아직 깃허브 사용 미숙 pro27_1 으로 다시 연습 예정
 }
