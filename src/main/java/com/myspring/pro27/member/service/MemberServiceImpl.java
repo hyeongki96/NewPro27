@@ -33,4 +33,10 @@ public class MemberServiceImpl implements MemberService {
 	public int removeMember(String id) throws DataAccessException {
 		return memberDAO.deleteMember(id);
 	}
+
+	@Override
+	public MemberVO login(MemberVO member) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
