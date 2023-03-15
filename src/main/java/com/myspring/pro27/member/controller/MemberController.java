@@ -17,5 +17,5 @@ public interface MemberController {
 	ModelAndView login(MemberVO member, RedirectAttributes rAttr, HttpServletRequest request,
 			HttpServletResponse response) throws Exception;
 	ModelAndView logout(HttpServletRequest request, HttpServletResponse response) throws Exception;
-	//¾ÆÁ÷ ±êÇãºê »ç¿ë ¹Ì¼÷ pro27_1 À¸·Î ´Ù½Ã ¿¬½À ¿¹Á¤
+	//ì•„ì§ ê¹ƒí—ˆë¸Œ ì‚¬ìš© ë¯¸ìˆ™ pro27_1 ìœ¼ë¡œ ë‹¤ì‹œ ì—°ìŠµ ì˜ˆì •(ìë°”í´ë˜ìŠ¤ ì „ì²´ ì–¸ì–´ UTF-8ì„¤ì •)
 }
