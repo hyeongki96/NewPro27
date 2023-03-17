@@ -34,7 +34,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 //}
 
 
-//다국어 기능 코드
+
 
 @Controller
 public class HomeController {
